@@ -1,3 +1,8 @@
+![CI](https://img.shields.io/github/actions/workflow/status/Cartesian-School/runtime-type-checker/ci.yml?branch=master&label=CI&logo=github)
+![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.13-3776AB?logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-5.2.5-092E20?logo=django&logoColor=white)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 # Учебный проект Django с интерактивными тизерами и логированием
 
 Этот учебный проект представляет собой веб-приложение на базе Django, разработанное для демонстрации и управления интерактивными тизерами. Проект включает в себя:
