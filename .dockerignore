@@ -1,0 +1,23 @@
+# Файлы Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Виртуальное окружение
+.venv
+env
+venv
+
+# Лог-файлы
+*.log
+
+docker_debug.log
+
+# Файлы и каталоги IDE
+.vscode
+.idea
+
+# Временные файлы
+*.swp
+*~

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <nav class="menu">
+    <a href="/" class="menu-item">Home</a>
+    <a href="/about/" class="menu-item">About</a>
+    <a href="/services/" class="menu-item">Services</a>
+    <a href="/contact/" class="menu-item">Contact</a>
+    <a href="/profile/" class="menu-item">Profile</a>
+    </nav>
+
+    <main>
+        <h1>Welcome to My Home Page</h1>
+        <p>This is a mobile-adaptive Django homepage with a horizontal 5-point menu.</p>
+        <div class="teaser-grid">
+            {% for teaser in teasers %}
+            <div class="teaser">
+                {% if teaser.image %}
+                <img src="{{ teaser.image.url }}" alt="Teaser Image" class="teaser-img" />
+                {% endif %}
+                <h3>{{ teaser.title }}</h3>
+                <p>{{ teaser.description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </main>
+</body>
+    </main>
+</body>
+</html>
